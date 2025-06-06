@@ -1,0 +1,81 @@
+/* little contribution from my freinds dad with coding backgorund */
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background-image: url('images/island_background.jpg');
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  color: #000;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+#game-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+#legend {
+  text-align: left;
+  font-size: 16px;
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 10px;
+  border-radius: 8px;
+  max-width: 220px;
+  color: black;
+}
+
+#game-info {
+  max-width: 400px;
+}
+
+#game {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  margin: 20px auto;
+  border: 2px solid #555;
+  background-color: #fffbea;
+  overflow: hidden;
+}
+
+#coconut, #apple, #golden-coconut {
+  width: 40px;
+  position: absolute;
+  top: 0;
+}
+
+.falling.hidden {
+  display: none;
+}
+
+#basket {
+  width: 60px;
+  height: 20px;
+  background-color: saddlebrown;
+  position: absolute;
+  bottom: 0;
+  left: 120px;
+  border-radius: 4px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.hidden {
+  display: none;
+}
+
+.game-link {
+  color: #0044cc;
+  text-decoration: underline;
+}

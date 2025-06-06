@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Coconut Catcher</title>
+  <link rel="stylesheet" href="styles.css" />  <!-- I used AI to help me with this part: Links external CSS for styling -->
+</head>
+<body>
+  <h1>Coconut Catcher</h1>
+
+  <div id="game-container">
+    <div id="legend">
+      <p><strong>Game Key:</strong></p>
+      <p>Normal coconut = 1 point</p>
+      <p>Green Apple = 2 points</p>
+      <p>Golden coconut = 5 points + Slow down</p>
+      <p>If normal coconut is not caught the game ends</p>
+    </div>
+
+    <div id="game-info">
+      <p id="score-output">Score: 0</p> <!-- I used AI to help me with this part: Shows the score, changes when you play -->
+      <p id="high-score-output">High Score: 0</p>
+      <p id="timer-output">Time: 0s</p>
+      <p id="game-over" class="hidden">Game Over! <button id="restartBtn">Play Again</button></p>
+      <button id="startBtn">Start Game</button>
+
+      <div id="game">
+        <img id="coconut" class="falling" src="images/coconut.png" alt="coconut" />
+        <img id="apple" class="falling hidden" src="images/apple.png" alt="apple" />
+        <img id="golden-coconut" class="falling hidden" src="images/golden_coconut.png" alt="golden coconut" />
+        <div id="basket"></div>
+      </div>
+      <a href="about.html" class="game-link">Learn more about the game</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script> <!-- I used AI to help me with this part: The game’s code that makes it work -->
+</body>
+</html>
