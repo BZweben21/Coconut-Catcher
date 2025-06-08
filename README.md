@@ -39,16 +39,27 @@ License:
 This game is free to use and change. No license added yet.
 
 File Structure:
+
 Coconut-catcher
+
 --> Images - images file
+
         ---> apple.png
+        
              coconut.png
+             
              golden_coconut.png
+             
              island_background.png
+             
 --> about.html - subwebpage explain the site
+
 --> index.html - main webpage
+
 --> README.md
+
 --> script.js - handles button presses 
+
 --> styles.css - styling 
 
 Coconut Catcher webpage:
