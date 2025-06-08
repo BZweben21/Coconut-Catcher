@@ -50,5 +50,6 @@ Coconut-catcher
 --> script.js
 --> styles.css
 
+Coconut Catcher webpage:
 ![Screenshot 2025-06-07 194649](https://github.com/user-attachments/assets/d2325fa9-ab1b-4dda-a06e-023d41a47722)
 
