@@ -36,3 +36,18 @@ My name is Brady Zweben and I created this project for my AP computer science cl
 License:
 
 This game is free to use and change. No license added yet.
+
+File Structure:
+Coconut-catcher
+--> Images
+        ---> apple.png
+             coconut.png
+             golden_coconut.png
+             island_background.png
+--> about.html
+--> index.html
+--> README.md
+--> script.js
+--> styles.css
+
+![alt text](image.png)
