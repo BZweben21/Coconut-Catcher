@@ -26,6 +26,7 @@ The basket is moved left and right using keyboard events.
 If an item touches the basket, the score goes up.
 A missed normal coconut ends the game.
 Your score and high score are shown at the top.
+
 Explaination video - https://youtu.be/2Q8vjSjsPwA
 
 
